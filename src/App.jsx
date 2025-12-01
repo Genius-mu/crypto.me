@@ -4,6 +4,7 @@ import CryptoPlatform from "./pages/CrptoPage";
 import FeaturesPage from "./pages/Features";
 import EarnPage from "./pages/Earn";
 import AboutPage from "./pages/AboutPage";
+import NotFoundPage from "./pages/NotFound";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/features" element={<FeaturesPage />} />
         <Route path="/earn" element={<EarnPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
   );
