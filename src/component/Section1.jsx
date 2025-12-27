@@ -54,7 +54,7 @@ const Section1 = () => {
         ))}
       </div>
 
-      <div className="relative w-full max-w-7xl flex flex-col gap-8 sm:gap-10 md:gap-12 justify-center items-center z-10">
+      <div className="relative w-full py-10 sm:py-1 max-w-7xl flex flex-col gap-8 sm:gap-10 md:gap-12 justify-center items-center z-10">
         {/* Badge */}
         <div
           className={`inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 bg-purple-500/10 border border-purple-500/30 rounded-full backdrop-blur-xl transition-all duration-1000 ${
